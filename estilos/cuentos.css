@@ -1,0 +1,38 @@
+header{
+    background-image: url(../img/esfinge.jpg);
+    background-attachment: fixed;
+}
+header>p{
+    font-size: 6em;
+}
+header>span{
+    margin-left: 3%;
+    color: #d6d6d6;
+}
+
+article{
+    float: right;
+    width: 22%;
+    border-left: 2px solid #58a9fa;
+    padding:0 10px 0 5px;
+    height: auto;
+}
+.contenedor{
+    float: left;
+    width: 75%;
+    padding:0 10px 0 10px;
+    padding-right: 0;
+}
+#primer::first-letter {
+    font-size: 40pt;
+}
+.contenedor>img{
+    margin-left: 0;
+    float: left;
+    margin-right: 20px;
+}
+.opiniones{
+    width: 80%;
+    height: auto;
+    padding: 0 10% 0 10%;
+}

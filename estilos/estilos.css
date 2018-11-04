@@ -1,0 +1,228 @@
+body{
+    margin: 0 0 0 0;
+}
+nav{
+    background-color:#212121;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position:fixed;
+    
+}
+nav>a{
+    text-decoration: none;
+    color: #d6d6d6;
+    font-family: sans-serif;
+    font-size: 12pt;
+    height: 69%;
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    padding-top: 1.2%;
+    display: inline-block;
+    
+    margin-left: 0;
+    margin-right: 0;
+
+}
+nav>a:hover{
+  transition:all .1s ease;
+    padding-top: 1%;
+    height: 67%;
+    border-top:3px solid #eb6d6d;
+    background-color:#7c7c7c;
+}
+#selecto{
+     padding-top: 1%;
+    height: 67%;
+    border-top:3px solid #eb6d6d;
+    background-color: #7c7c7c;
+}
+/*a{
+    text-decoration: none;
+    color: #463c3c;
+    font-family:sans-serif;
+    font-size: 16pt;
+    background-color: #e6e4e4;
+    display: inline-block;
+    width: 17%;
+    height: 30px;
+}*/
+.contenedor>img{
+    width: 20%;
+   margin-left: 35%;
+   overflow: auto;
+    display: block;
+}
+.contenedor>em{ 
+    margin-left: 37%;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-color: #0a0f0d;
+    background-image: url( ../img/bac5.jpg);
+    background-attachment: fixed;
+    padding-top: 200px;
+    margin-top:50px;
+}
+header>p{
+    color: #d44f4f;
+    margin: 0 0 0 0;
+    font-size: 3em;
+    font-family: sans-serif; 
+}
+header>span>a{
+    color: #07bcff;
+    text-decoration: none;
+}
+header>span>a:hover{
+    text-decoration: underline;
+}
+#titulo{
+    text-align: center;
+    font-family: monospace;
+    font-size: 3em;
+    margin: 0 0 10px 0;
+    color: #96938d;
+    background-color: #3592e3;
+    color: white;
+    height: 60px;
+    padding-top: 10px;
+}
+header>span{
+    color: #fffefe;
+    font-size: 30pt;
+    font-family:sans-serif;
+    font-style: italic;
+}
+.cuento{
+    background-color: #eae6e6;
+    width: 19.4%;
+    height: 280px;
+    display:inline-block;
+    
+}
+.informacion>p{
+    display: inline-block;
+    margin: 0 0 0 0;
+    width: 65%;
+    text-align: center;
+    margin: 30px 5px 0 5px;
+    font-family:sans-serif;
+    font-size: 18px;
+    color: #554e50;
+}
+
+.nombre>p{
+    margin: 0 0 0 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #e57373;
+    font-size: 15pt;
+    font-weight: helvetica;
+    padding-top: 10px;
+}
+.informacion>img{
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+.nombre{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.76);   
+}
+/*.direccion{
+    width: 100%;
+    height: 20%;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.direccion > a{
+   display: inline-block;
+    margin: 20px 0 0 px;
+    text-decoration: none;
+    background-color: #2583e0;
+    color: white;
+    padding: 10px 20px;
+    font-family: sans-serif;
+}*/
+
+.autor{
+    margin-top: 40px;
+    width: 100%;
+    height: 500px;
+    background-image: url(bac2.jpg);
+    background-attachment: fixed;
+}
+.autor>p{
+    margin: 0 0 0 0;
+    padding-top: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30pt;
+    font-weight:inherit;
+    background-color: rgba(24, 25, 26, 0.76);
+    color: white;
+}
+footer{
+    width: 97.9%;
+    height: 50px;
+    background-color: #020202;
+    margin-top: 60px;
+    padding-top: 3%;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+footer>p{
+    margin: 0 0 0 0;
+    color: #cbcbcb;
+
+    
+}
+footer>p>a{
+    color: #349a9a;
+}
+
+.cuerpo{
+    overflow: auto;
+}
+p{
+    text-align: justify;
+    font-family: helvetica;
+    font-size: 12pt;
+    color: #363636;
+}
+article{
+    float: left;
+    width: 15%;
+    height: 700px;
+}
+ul{
+    padding-left: 15px;
+}
+li{
+  list-style: none;
+  font-family: helvetica;
+  font-size: 12pt;
+    margin-top: 5px;
+}
+li>a{
+    text-decoration: none;
+}
+.contenedor{    
+    width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+}
+h1,h2,h3{
+    font-family: helvetica;
+    color: #373738;
+}
+blockquote{
+    font-style: italic;
+    font-family: helvetica;
+    text-align: right;
+}
